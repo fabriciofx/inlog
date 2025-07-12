@@ -37,7 +37,7 @@ jobs:
 
       # Compiles
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with:
           root_file: inlog.tex
           post_compile: "mv inlog.pdf inlog-${{ github.ref_name }}.pdf"
