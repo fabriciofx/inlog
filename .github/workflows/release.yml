@@ -33,7 +33,7 @@ jobs:
     steps:
       # Checks-out your repository
       - name: Set up Git repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # Compiles
       - name: Compile LaTeX document
