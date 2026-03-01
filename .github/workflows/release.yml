@@ -44,7 +44,7 @@ jobs:
 
       # Uploads the PDF
       - name: Upload PDF file
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: inlog-${{ github.ref_name }}
           path: inlog-${{ github.ref_name }}.pdf
