@@ -51,7 +51,7 @@ jobs:
 
       # Publishes the PDF as a release
       - name: Make release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: inlog-${{ github.ref_name }}.pdf
           generate_release_notes: true
